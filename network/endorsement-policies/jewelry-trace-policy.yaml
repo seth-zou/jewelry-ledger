@@ -1,0 +1,4 @@
+policy: "OutOf(2, 'BrandMSP.peer', 'PlatformMSP.peer', 'CertificationMSP.peer')"
+notes:
+  - MVP requires brand and platform or certification endorsement for high-value trace events.
+  - Production policy must be approved through governance before channel update.
